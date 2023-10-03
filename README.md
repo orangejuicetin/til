@@ -1,3 +1,6 @@
+# Today I Learned
+
+accumulating all the lessons along the way
 
 ---
 
