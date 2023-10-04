@@ -3,6 +3,7 @@
 # Flash RPI OS to SD Card 
 
 ### Raspberry Pi now has their own image burning service for when you set it up! Rather than using Etcher
+1. Download [Raspberry Pi Imager](https://www.raspberrypi.com/software/) and follow the directions !!
 
 ## SSHing into rpi
 1. Insert SD card
