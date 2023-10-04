@@ -1,6 +1,6 @@
 # RPI Setup 
 
-# Flash RPI OS to SD Card (or use Etcher) 
+# Flash RPI OS to SD Card 
 
 1. Download Raspbian or other OS
 1. Tar unzip it: `tar -xvf raspbian-os.zip`
@@ -9,6 +9,8 @@
 1. Copy OS to SD card (name output ‘rdisk#’, don’t add remaining numbers)
 `sudo dd bs=1m if=~/Downloads/raspbian-os.img of=/dev/rdisk2`
 1. Wait until copy is done. Can use CTRL+T to check on status.
+
+### Raspberry Pi now has their own image burning service for when you set it up! Rather than using Etcher
 
 ## Enable SSH to rpi
 If you create a `wpa_supplicant.conf` file in `/boot`, it will be copied to the main partition's `/etc/wpa_supplicant` location at boot time,replacing whatever is there. It will then be deleted from `/boot`, so you won't see it there if you go looking.
