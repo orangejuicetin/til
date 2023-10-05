@@ -4,7 +4,12 @@ accumulating all the lessons along the way
 
 ---
 
-1 TILs so far:
+3 TILs so far:
+
+## haskell
+
+- [`newtype` vs `data`](/haskell/newtype_vs_data.md)
+- [Setting up random number generators using State Transformers](/haskell/working-with-random-generators.md)
 
 ## rpi
 
