@@ -1,4 +1,4 @@
-# Binary representation proof
+# Sum of Powers of 2, binary intuition
 
 $$
 \sum_{k=0}^n 2^k = 2^{n+1} - 1
