@@ -31,7 +31,7 @@ $$
 And if we subtract 1 from this, we get:
 
 $$
-1\underbrace{0.....0}_\text{n+1} - 1 = \underbrace{11.....1}_\text{n+1}
+1 \underbrace{0.....0}_\text{n+1} - 1 = \underbrace{11.....1}_\text{n+1}
 $$
 
 Voilà! We've arrived at the answer of $2^{n+1} - 1 = \sum_{k=0}^n 2^k$
