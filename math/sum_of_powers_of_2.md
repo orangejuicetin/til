@@ -34,6 +34,10 @@ $$
 \underbrace{11.....1}_\text{n+1}
 $$
 
-Voilà! We've arrived at the answer of $2^{n+1} - 1 = \sum_{k=0}^n 2^k$
+Voilà! We've arrived at the answer of
+
+$$
+2^{n+1} - 1 = \sum_{k=0}^n 2^k
+$$
 
 Applications: helps us count number of total nodes in a complete binary tree, and reason about why if we take away all the leaves (of which there are at most $2^n$ in this case since the max height is $k = n$), we have half the original nodes remaining, i.e. the leaves make up _half_ the nodes of the tree (!!)
