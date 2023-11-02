@@ -4,7 +4,7 @@ accumulating all the lessons along the way
 
 ---
 
-8 TILs so far:
+9 TILs so far:
 
 ## ds_algos
 
@@ -17,6 +17,7 @@ accumulating all the lessons along the way
 
 ## math
 
+- [Ackermann function](/math/ackermann.md)
 - [Itô's Lemma](/math/itos_lemma.md)
 - [Sum of Powers of 2, binary intuition](/math/sum_of_powers_of_2.md)
 - [Intuition of variance](/math/variance_derivation.md)
