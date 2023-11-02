@@ -17,11 +17,13 @@ for $j \geq 1$ and $k \geq 0$
 Which is confusing to read, but to put it in perspective for you, if we just set $j = 1$ and solely iterate $k$:
 
 $$
-A_0(1) = 1 \\
-A_1(1) = 3 \\
-A_2(1) = 7 \\
-A_3(1) = 2047 \\
-A_4(1) \gg 10^{80}
+\displaylines{
+  A_0(1) = 1 \\
+  A_1(1) = 3 \\
+  A_2(1) = 7 \\
+  A_3(1) = 2047 \\
+  A_4(1) \gg 10^{80}
+}
 $$
 
 Where $10^{80}$ is the estimated number of _atoms in the observable universe_ (!!!)
