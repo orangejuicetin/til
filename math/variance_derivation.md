@@ -10,10 +10,10 @@ The alternate definition comes from continuing this expansion to derive the othe
 
 $$
 \begin{aligned}
-&=& E[(X - E[X])^2] \\
-&=& E[(X^2 - 2X(E[X]) + (E[X])^2)] \\
-&=& E[(X^2)] - 2 E[X]E[X] + (E[X])^2 \\
-&=& E[(X^2)] - 2 (E[X])^2 + (E[X])^2 \\
-Var[X]&=& E[(X^2)] - (E[X])^2\\
+&= E[(X - E[X])^2] \\
+&= E[(X^2 - 2X(E[X]) + (E[X])^2)] \\
+&= E[(X^2)] - 2 E[X]E[X] + (E[X])^2 \\
+&= E[(X^2)] - 2 (E[X])^2 + (E[X])^2 \\
+Var[X]&= E[(X^2)] - (E[X])^2\\
 \end{aligned}
 $$
