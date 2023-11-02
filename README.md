@@ -4,7 +4,11 @@ accumulating all the lessons along the way
 
 ---
 
-7 TILs so far:
+8 TILs so far:
+
+## ds_algos
+
+- [Union-find](/ds_algos/union_find.md)
 
 ## haskell
 
