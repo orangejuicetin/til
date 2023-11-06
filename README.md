@@ -4,10 +4,11 @@ accumulating all the lessons along the way
 
 ---
 
-9 TILs so far:
+10 TILs so far:
 
 ## ds_algos
 
+- [Anagram of `a` is substring of `b`](/ds_algos/anagram_is_substring.md)
 - [Union-find](/ds_algos/union_find.md)
 
 ## haskell
