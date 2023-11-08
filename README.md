@@ -4,11 +4,12 @@ accumulating all the lessons along the way
 
 ---
 
-10 TILs so far:
+11 TILs so far:
 
 ## ds_algos
 
 - [Anagram of `a` is substring of `b`](/ds_algos/anagram_is_substring.md)
+- [Node is ancestor of \_\_\_\_](/ds_algos/node_is_ancestor_of.md)
 - [Union-find](/ds_algos/union_find.md)
 
 ## haskell
