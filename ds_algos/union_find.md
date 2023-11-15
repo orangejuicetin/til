@@ -58,3 +58,64 @@ def merge_accounts(accounts: List[List[str]]) -> List[List[str]]:
 ```
 
 Since union-find gives us very great bounds on runtime due to the inverse Ackermann function $\alpha(n)$ in $O(m \ \alpha(n))$, where $m$ is the total number of `find`, `union` operations combined (in textbooks there's typically a separate `make-set` operation but we initialize everything here to be its own set in the array to start in `__init__`), then we can say that this algorithm is linear in the number of email accounts, $O(m)$.
+
+## 11/15/23
+
+Another problem that fits the bill, this time a LC Hard with [#2092](https://leetcode.com/problems/find-all-people-with-secret/description/) figuring out how many people know a given secret at the end. The confusing part of this is where the `meetings` list of lists can have one person in multiple different meetings at once and multiple items with the same timestamp in various ordreings.
+
+This is where union-find comes in for us to be able to find which disjoint-sets of people are in cahoots with each other at a given time. And at each time, we can check if there's any overlap with one of those sets and who already is in the know for a given secret, and add them appropriately to the growing set of people `who_knows`.
+
+```python
+import collections
+
+class UnionFind:
+    def __init__(self):
+        self.parents = {}
+        self.rank = {}
+
+    def insert(self, x):
+        if x not in self.parents:
+            self.parents[x] = x
+            self.rank[x] = 0
+
+    def find(self, x):
+        if self.parents[x] != x:
+            self.parents[x] = self.find(self.parents[x])
+        return self.parents[x]
+
+    def union(self, x, y):
+        self.insert(x)
+        self.insert(y)
+        if (xp := self.find(x)) != (yp := self.find(y)):
+            if self.rank[xp] > self.rank[yp]:
+                self.parents[yp] = xp
+            else:
+                self.parents[xp] = yp
+                if self.rank[xp] == self.rank[yp]:
+                    self.rank[yp] += 1
+
+class Solution:
+    def findAllPeople(self, n: int, meetings: List[List[int]], firstPerson: int) -> List[int]:
+        # sort meetings by last timestamp (O n lg n)
+        who_knows = set([0, firstPerson])
+        meetings_at = collections.defaultdict(list)
+        for a, b, time in meetings:
+            meetings_at[time].append((a, b))
+        meetings_at = sorted(meetings_at.items())
+        for _, pairings in meetings_at:
+            uf = UnionFind()
+            for a, b in pairings:
+                uf.union(a, b)
+
+            groups = collections.defaultdict(set)
+            for person in uf.parents:
+                groups[uf.find(person)].add(person)
+            for group in groups.values():
+                if group & who_knows:
+                    who_knows.update(group)
+
+        return list(who_knows)
+
+```
+
+This union-find implementation was also slightly different for the last one in which we didn't instantiate the array of `rank` right away since we didn't have a static number – in this case we can dynamically insert members.
