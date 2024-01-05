@@ -32,6 +32,6 @@ accumulating all the lessons along the way
 
 - [RPI Setup ](/rpi/setting-up-rpi.md)
 
-## vim
+## tools
 
-- [Vim Setup + Shortcuts](/vim/shortcuts.md)
+- [Vim Setup + Shortcuts](/tools/shortcuts.md)
