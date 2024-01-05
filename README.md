@@ -1,6 +1,7 @@
 # Today I Learned
 
-accumulating all the lessons along the way
+accumulating all the lessons along the way, shoutout to @jakelazaroff for first
+showing me this idea!
 
 ---
 
