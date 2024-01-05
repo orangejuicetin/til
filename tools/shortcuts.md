@@ -16,3 +16,15 @@ I don't have to repetitively look em up in the future.
 ## `fzf`
 - `<C-r>` has been improved with `fzf` installation to be a more interactive
 fuzzy backwards find of your command history woot woot
+
+## `tmux`
+- `<C-b>` prefix!
+- `<C-b> $` to rename session
+- `<C-b> ,` to rename window
+- `<C-b> &` to close window 
+- `<C-b> c` to create new window
+- `<C-b> l` to toggle last active window
+- `<C-b> x` to close pane
+- `<C-b> %` to open pane vertically
+- `<C-b> "` to open pane horizontally
+
