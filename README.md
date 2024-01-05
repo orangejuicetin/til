@@ -4,7 +4,7 @@ accumulating all the lessons along the way
 
 ---
 
-11 TILs so far:
+12 TILs so far:
 
 ## ds_algos
 
@@ -31,3 +31,7 @@ accumulating all the lessons along the way
 ## rpi
 
 - [RPI Setup ](/rpi/setting-up-rpi.md)
+
+## vim
+
+- [Vim Setup + Shortcuts](/vim/shortcuts.md)
