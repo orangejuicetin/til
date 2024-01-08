@@ -5,7 +5,7 @@ showing me this idea!
 
 ---
 
-12 TILs so far:
+13 TILs so far:
 
 ## ds_algos
 
@@ -36,3 +36,4 @@ showing me this idea!
 ## tools
 
 - [Vim Setup + Shortcuts](/tools/shortcuts.md)
+- [hot reload source file](/tools/tmux-reload.md)
