@@ -23,6 +23,9 @@ for single line, `gqip` for whole paragraph, 3 lines is `gq2j`, etc.)
       was before-hand
 - `<C-o>` puts you in `NORMAL` mode for one command before putting you back in 
 `INSERT` mode.
+- text object identifiers: `w` for *w*ord, `s` for *s*entence, `p` for
+  *p*aragraph, `(`, `{`, `t` for *t*ag, `<` `[` (e.g. `dap` to *d*elete 
+  *a*round *p*aragraph, `ci"` to change something inside double quotes)
 
 ### Ex commands (shoutout to fzf.vim)
 - `:Rg` in order to bring up the general search command
