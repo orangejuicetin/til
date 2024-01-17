@@ -26,6 +26,10 @@ for single line, `gqip` for whole paragraph, 3 lines is `gq2j`, etc.)
 - text object identifiers: `w` for *w*ord, `s` for *s*entence, `p` for
   *p*aragraph, `(`, `{`, `t` for *t*ag, `<` `[` (e.g. `dap` to *d*elete 
   *a*round *p*aragraph, `ci"` to change something inside double quotes)
+- Adding an en-dash (i.e. "–") = `<C-k>-N`: 
+"You can use digraphs: Ctrl+k-N (with a capital N) In Insert mode, digraphs are
+entered by Ctrl+k followed by a two-character sequence. For en-dash, the
+sequence is -N."
 
 ### Ex commands (shoutout to fzf.vim)
 - `:Rg` in order to bring up the general search command
