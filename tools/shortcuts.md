@@ -15,7 +15,8 @@ I don't have to repetitively look em up in the future.
 - Using `<C-c>` instead of Esc definitely quicker, get used to it 
 - `<C-r>` as a "Undo" in Normal mode
 - `:set paste!` to toggle the paste mode, when `PASTE` mode is on then 
-Vim won't mangle the formatting of pasted code from auto-indenting 
+Vim won't mangle the formatting of pasted code from auto-indenting
+    - OR you can just `"*p` in order to paste from system clipboard cleanly
 - `=` will fix indentation, `=G` at top of file will re-indent til the end
 - `gq{motion}` will format the line that `{motion}` moves over (e.g. `gqq` 
 for single line, `gqip` for whole paragraph, 3 lines is `gq2j`, etc.)
