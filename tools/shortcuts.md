@@ -21,6 +21,9 @@ Vim won't mangle the formatting of pasted code from auto-indenting
 for single line, `gqip` for whole paragraph, 3 lines is `gq2j`, etc.)
     - `gw` is an alternate that puts your cursor back to where it originally
       was before-hand
+- <C-o> puts you in `NORMAL` mode for one command before putting you back in 
+`INSERT` mode.
+
 ### Ex commands (shoutout to fzf.vim)
 - `:Rg` in order to bring up the general search command
 - `:Files` in order to fuzzy find your files
