@@ -52,4 +52,4 @@ fuzzy backwards find of your command history woot woot
 - `<C-b> x` to close pane
 - `<C-b> %` to open pane vertically
 - `<C-b> "` to open pane horizontally
-
+- `prefix :` `-L, -R, -D, -U 10, 20, etc.` to resize pane in focus
