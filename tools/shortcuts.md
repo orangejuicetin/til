@@ -31,6 +31,7 @@ for single line, `gqip` for whole paragraph, 3 lines is `gq2j`, etc.)
 "You can use digraphs: Ctrl+k-N (with a capital N) In Insert mode, digraphs are
 entered by Ctrl+k followed by a two-character sequence. For en-dash, the
 sequence is -N."
+- `:[range]s/<target>/<substitute>/g` for change of all `<target>`s
 
 ### Ex commands (shoutout to fzf.vim)
 - `:Rg` in order to bring up the general search command
