@@ -44,12 +44,12 @@ fuzzy backwards find of your command history woot woot
 
 ## `tmux`
 - `<C-b>` prefix!
-- `<C-b> $` to rename session
-- `<C-b> ,` to rename window
-- `<C-b> &` to close window 
-- `<C-b> c` to create new window
-- `<C-b> l` to toggle last active window
-- `<C-b> x` to close pane
-- `<C-b> %` to open pane vertically
-- `<C-b> "` to open pane horizontally
+- `prefix $` to rename session
+- `prefix ,` to rename window
+- `prefix &` to close window 
+- `prefix c` to create new window
+- `prefix l` to toggle last active window
+- `prefix x` to close pane
+- `prefix %` to open pane vertically
+- `prefix "` to open pane horizontally
 - `prefix :` `-L, -R, -D, -U 10, 20, etc.` to resize pane in focus
