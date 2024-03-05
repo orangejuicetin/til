@@ -5,7 +5,7 @@ showing me this idea!
 
 ---
 
-13 TILs so far:
+14 TILs so far:
 
 ## ds_algos
 
@@ -32,6 +32,10 @@ showing me this idea!
 ## rpi
 
 - [RPI Setup ](/rpi/setting-up-rpi.md)
+
+## shell
+
+- [`rsync` vs `scp`](/shell/rsync.md)
 
 ## tools
 
