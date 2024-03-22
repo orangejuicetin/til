@@ -5,7 +5,7 @@ showing me this idea!
 
 ---
 
-14 TILs so far:
+15 TILs so far:
 
 ## ds_algos
 
@@ -35,6 +35,7 @@ showing me this idea!
 
 ## shell
 
+- [Useful tidbits to know for bash scripting](/shell/bash.md)
 - [`rsync` vs `scp`](/shell/rsync.md)
 
 ## tools
